@@ -1,0 +1,71 @@
+/* google font import */
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Borel&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url("Easiest-Pizza.jpg");
+    background-size:cover;
+    background-repeat: no-repeat; 
+    font-family: 'Alkatra', cursive;
+    
+}
+
+.container{
+    width:300px;
+    height: 430px;
+    color: white; 
+    background-color: black; 
+    margin-left: 36%;
+    margin-top: 8%;
+    text-align: center; 
+}
+
+.container .text{
+    position: relative;
+    top: 8%;
+}
+
+.inp1{
+    border: none;
+    background-color: black;
+    border-bottom: 2px solid white;
+    width: 250px;
+    font-size: 18px;
+    margin-top: 40px;
+    outline: none;
+    color: white;
+}
+
+.text button{
+    width: 250px;
+    height: 44px;
+    background-color:aqua;
+    color: black;
+    border: none;
+    font-size: 22px;
+    border-radius: 25px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button:hover{
+   border: 3px solid aqua;
+   color: white;
+   font-size: 20px; 
+   background-color: black;
+}
+p{
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+p span{
+    color: aqua;
+    cursor: pointer;
+}
